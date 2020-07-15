@@ -98,26 +98,7 @@
 .navbar  i:hover{color:#74c7d5 }
 /* end navbar */
 
-/* start footer */
-
-.footer{
-    margin-top: 30px;
-    margin-bottom: 1px;
-    width: 100%;
-    height:150px;
-    background-color: #404040;
-    text-align: center;
-    color: white;
-    padding-top: 30px
-}
-
-.footer a{
-    color: white;
-    font-size: 30px
-}
-.footer a:hover{color: #0040ff}
-
-/* end footer */
+/* start form */
 .welcome{
 
     color:white;
@@ -173,3 +154,26 @@ input[type=radio] {
 a{
     color:dodgerblue;
 }
+
+/* end form */
+
+/* start footer */
+
+.footer{
+    margin-top: 30px;
+    margin-bottom: 1px;
+    width: 100%;
+    height:150px;
+    background-color: #404040;
+    text-align: center;
+    color: white;
+    padding-top: 30px
+}
+
+.footer a{
+    color: white;
+    font-size: 30px
+}
+.footer a:hover{color: #0040ff}
+
+/* end footer */
