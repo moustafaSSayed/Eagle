@@ -1,6 +1,5 @@
-$(document).ready(function(){
-$(".con").fadeIn(2000);
 $(function(){ 
+    $(".con").fadeIn(2000);
    //toggel dark mood button
  $('.navbar .fa-toggle-off').click(function(){
     
@@ -15,5 +14,9 @@ $(function(){
     $('.fa-toggle-off').css("display","block");  
     
  });
-});
+    $('input[type=submit]').click(function(){
+       
+        alert('welcome ' + $('#firstname').val());
+        
+    });
 });
