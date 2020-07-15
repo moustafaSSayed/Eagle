@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+    <head>
+         <title>Login</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="icon" href="img/logo.png" sizes="15x15">
+        <link rel="stylesheet" type="text/css" href="css/normalize.css">
+        <link rel="stylesheet" type="text/css" href="css/index.css">
+        <link rel="stylesheet" href="css/font-awesome-4.7.0/css/font-awesome.min.css">
+        <link rel="stylesheet" href="css/login.css">
+    </head>
+    <body>
+        <!-- start navbar -->
+        <div class="navbar">
+            <div class="container">
+                <a class="help" href="help.html" title="Help"><i class="fa fa-question-circle fa-lg"></i></a>
+                <i class="fa fa-toggle-off" aria-hidden="true" title="another theme"></i>
+                <i class="fa fa-toggle-on" aria-hidden="true" title="Help"></i>
+                <div class="logo">
+                    <img src="img/logo.png">
+                    <h3>Eagle</h3>
+                </div>
+                <ul>
+                    <li><a href="index.html" class="active">Home</a></li>
+                    <li><a href="countries">Countries</a></li>
+                    <li><a href="news.html">News</a></li>
+                    <li><a href="offers.html">Offers</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <div class="dropdown">
+                      <li ><a>Join</a></li>
+                      <div class="dropdown-content">
+                          <a href="signup.html">Sing up</a>
+                          <a href="login.html">Login</a>
+                      </div>
+                    </div>   
+                </ul>
+            </div>
+            <div class="clearfix"></div>
+        </div>
+        <!-- end navbar -->
+        <!-- start login form -->
+        <div class="login-form">
+            <form action="index.html">
+                <h1>Login</h1>
+                <label>Username</label>
+                <div class="use-pas">
+                    <input class="name" type="text" name="Username" placeholder="Type the username" required>
+                    <i class="fa fa-user" aria-hidden="true"></i>
+                </div>
+                <label>Password</label>
+                <div class="use-pas">
+                    <input type="password" name="password" placeholder="Type the password" required>
+                    <i class="fa fa-lock" aria-hidden="true"></i>
+                </div>
+                <input class="checkBox" type="checkbox">
+                <label>Remember me</label>
+                <input  class="login-button" type="submit" value="Login">  
+            </form>
+        </div>
+        <!-- end login form -->
+         <!-- start footer -->
+        <div class="footer">
+            <div class="container">
+                <a href="contact us">Contact us</a>
+                <h3>Copyrights &copy; 2020 All rights reserved</h3>
+            </div>
+        </div>
+        <!-- end footer -->
+        <script src="js/jQuery.js"></script>
+        <script src="js/login.js"></script>
+    </body>
+</html>
