@@ -41,29 +41,31 @@
 <!-- end navbar -->
 <div class="con">
     <div class="welcome">HELLO!</div><br>
-    <form method="POST">
-        <label>First name*</label><br>
-<input type="text" name="username" placeholder="first name"required><br>
-<label>Last name*</label><br>
-<input type="text" name="username" placeholder="last name"required><br>
-<label>Email*</label><br>
-<input type="email" name="email" placeholder="enter Email"required><br>
-<label>Password*</label><br>
-<input type="password" name="password" placeholder="enter password" required><br>
-<label>Repeat password*</label><br>
-<input type="password" name="password" placeholder="repeat password" required><br>
-<label>Gender*</label><br>
-                <input type="radio" name="gender">male<br>
-                <input type="radio" name="gender">female<br>
-                <input type="radio" name="gender">other<br>
-<label>Date of birth*</label><br>
-<input type="date" name="dating"><br>
-<br>
-<p>By creating an account you agree to our <a href="aaaaa">Terms & Privacy</a>
-    <input type="checkbox" required>
-</p>
-<button class="b">create account</button>
-</form>
+         <form  action="index.html" method="POST">
+                <label>First name*</label><br>
+                <input type="text" id="first name" name="username" placeholder="first name"required><br>
+                <label>Last name*</label><br>
+                <input type="text" name="username" placeholder="last name"required><br>
+                <label>Email*</label><br>
+                <input type="email" name="email" placeholder="enter Email"required><br>
+                <label>Password*</label><br>
+                <input type="password" name="password" placeholder="enter password" required><br>
+                <label>Repeat password*</label><br>
+                <input type="password" name="password" placeholder="repeat password" required><br>
+                <fieldset>
+                         <legend>Gender</legend>
+                          <input type="radio" name="gender">male<br>
+                          <input type="radio" name="gender">female<br>
+                          <input type="radio" name="gender">other<br>
+               </fieldset>
+                <label>Date of birth*</label><br>
+                <input type="date" name="dating"><br>
+                <br>
+                <p>By creating an account you agree to our <a href="#">Terms & Privacy</a>
+                    <input type="checkbox" required>
+                </p>
+                <input type="submit" class="b" value="create account">
+         </form>
 
 
 
