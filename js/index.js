@@ -49,10 +49,17 @@ $(function(){
         
     });
     
-    $('.reviwes .card').click(function(){
+// smoth scroll
+    
+    $('.stickybar li a,.fa-arrow-circle-o-up').click(function(){
         
-        $().load('reviwes.html');
+       $('html,body').animate({
+           
+           scrollTop: $('#' + $(this).data('value')).offset().top-50
+            
+       },1000);
         
     });
 
+    
 });
