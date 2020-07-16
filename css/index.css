@@ -230,9 +230,9 @@
 
 /* start reviwes */
 
-.reviwes {height: 620px;}
+.reviews {height: 620px;}
 
-.reviwes .card{
+.reviews .card{
     height: 250px;
     float: left;
     width: 48%;
@@ -243,16 +243,16 @@
 
 }
 
-.reviwes .card:hover{box-shadow: 0px 8px 16px 0px #1f2e2e;}
+.reviews .card:hover{box-shadow: 0px 8px 16px 0px #1f2e2e;}
 
-.reviwes .card img{
+.reviews .card img{
     height: auto;
     float: left;
     width: 40%;
     padding: 30px 5px 0 5px
 }
 
-.reviwes .card p{
+.reviews .card p{
     padding-top: 15px;
     padding-left: 10px;
     float: left;
@@ -300,6 +300,13 @@
 
 
 /* end travelling advice */
+
+.fa-arrow-circle-o-up{ 
+    color: slategray;
+    position: fixed;
+    bottom: 0;
+    right: 5%;
+}
 
 /* start footer */
 
