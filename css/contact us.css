@@ -1,0 +1,190 @@
+/* start global */
+
+*{box-sizing: border-box}
+
+.container{
+    width: 1000px;
+    margin: auto
+}
+
+.clearfix{clear: both}
+
+/* end global */
+
+/* start navbar */
+
+.navbar{background-color:#003580;}
+
+.navbar .logo{  
+    float: left;
+    width: 30%;
+}
+
+.navbar .logo img{
+    
+   height: 75px;
+    width: 95px;
+    float: left
+}
+.navbar .logo h3{
+    float: left;
+    color: #ffffff;
+}
+
+.navbar ul{
+    list-style-type: none;
+    overflow: hidden;
+    display: inline-block;
+    width:60%;
+     
+}
+
+.navbar ul li{
+    float: left;
+    padding-right: 20px;
+}
+.navbar ul li a{
+    text-decoration: none;
+    color: white;
+    display: block;
+    padding: 7px 10px 7px 10px;
+    
+}
+.navbar ul li a:hover{
+    background-color: #74c7d5;
+    border: 1px solid transparent #74c7d5;
+    border-radius: 20px
+}
+
+.navbar ul li a.active{
+    background-color: #74c7d5;
+    border: 1px solid transparent #74c7d5;
+    border-radius: 20px
+}
+
+.dropdown {
+  
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #003580;
+  min-width: 135px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.3);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  text-decoration: none;
+  color: white;
+  display: block;
+  padding: 7px 10px 7px 10px;
+}
+
+.dropdown-content a:hover {background-color: #74c7d5}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+
+.navbar  i{
+    float: right;
+    color: white;
+    padding: 25px 15px 7px 15px;
+}
+.navbar .fa-toggle-on{display: none;}
+.navbar  i:hover{color:#74c7d5 }
+/* end navbar */
+
+/* start contact us */
+
+ body{
+    background-image:url(../img/damian-markutt.jpg);
+    background-size: cover;
+            }
+.contactus{
+    margin: auto;
+    width: 1000px;
+}
+.contacts {
+    margin-bottom: 40px;
+}
+.contacts h2 {
+    text-align: center;
+    color: white;
+    font-weight: normal;
+    font-size: 50px;
+    margin: 30px 0 15px 0;
+}
+.contacts p {
+    text-align: center;
+    color: white;
+    font-size: 14px;
+}
+.info {
+    float: left;
+    width: 50%;
+    color: white;
+}
+.info h2 {
+    font-weight: normal;
+    margin-top: 15px;
+}
+.info .addr {
+    margin-bottom: 100px;
+}
+.info .a {
+    color: white;
+}
+.form {
+    float: left;
+    width: 50%;
+}
+.form input {
+    border: 1px solid rgb(85, 85, 85,.3);
+    border-radius: 4px;
+    background-color: rgb(85, 85, 85,.3);
+    margin: 15px 0px 15px 15px;
+}
+.form textarea {
+    border: 1px solid rgb(85, 85, 85,.3);
+    border-radius: 4px;
+    background-color: rgb(85, 85, 85,.3);
+    margin: 15px 0px 15px 15px;
+}
+form button {
+    width: 40%;
+    height: 6%;
+    color: white;
+    text-align: center;
+    background-color: #003580;
+    border: 2px solid #003580;
+    border-radius: 5px;
+    margin-left: 25%;
+    font-weight: bolder;
+    font-size: 25px;
+}
+/* end contact us */
+
+/* start footer */
+
+.footer{
+    margin-top: 25px;
+    width: 100%;
+    height:94px;
+    background-color: #404040;
+    text-align: center;
+    color: white;
+    padding-top: 25px
+}
+
+.footer a{
+    color: white;
+    font-size: 30px
+}
+.footer a:hover{color: #0040ff}
+
+/* end footer */
