@@ -13,7 +13,7 @@
     </head>
     <body>
         <!-- start navbar -->
-        <div class="navbar">
+        <div class="navbar" id="top">
             <div class="container">
                 <a class="help" href="help.html" title="Help"><i class="fa fa-question-circle fa-lg"></i></a>
                 <i class="fa fa-toggle-off" aria-hidden="true" title="another theme"></i>
@@ -45,10 +45,10 @@
         <div class="stickybar">
             <div class="container">
                 <ul>
-                    <li><a href="index.html">Gallary</a></li>
-                    <li><a href="countries">Opinions</a></li>
-                    <li><a href="news.html">Reviews</a></li>
-                    <li><a href="offers.html">Travelling advice</a></li>
+                    <li><a href="#" data-value="gallary">Gallary</a></li>
+                    <li><a href="#" data-value="opinions">Opinions</a></li>
+                    <li><a href="#" data-value="reviews">Reviews</a></li>
+                    <li><a href="#" data-value="advices">Travelling advice</a></li>
                 </ul>
             </div>
         </div>
@@ -68,7 +68,7 @@
         
         <!-- start gallary section  -->
         
-        <div class="gallary">
+        <div class="gallary" id="gallary">
             <div class="container">
                 <h2>Gallary</h2>
                 <p>See some of <span>beauty</span> and enjoy</p>
@@ -83,7 +83,7 @@
         <!-- end gallary section  -->
         <!-- start opinions-->
         
-        <div class="opinions">
+        <div class="opinions" id="opinions">
             <div class="container">
                 <h2>Our Clints Opinions about site</h2>
                 <div class="my-slider">  
@@ -116,7 +116,7 @@
         
         <!-- start Reviwes -->
         
-        <div class="reviwes">
+        <div class="reviews" id="reviews">
             <div class="container">
                 <h2>Reviwes about the travels</h2>
                 <p>To see more click on any reviwes card</p>
@@ -142,7 +142,7 @@
         <!-- end Reviwes -->
         
         <!-- start travelling advice-->
-        <div class="advices">
+        <div class="advices" id="advices">
             <div class="container">
                 <h2>Our travelling advice<span>(for more advice <a href="advice.html">click here</a>)</span></h2>
                 <p>If you go to:</p>
@@ -172,10 +172,12 @@
         
         <!-- end travelling advice-->
         
+        <div class="container"><i class="fa fa-arrow-circle-o-up fa-3x" data-value="top"></i></div>
+        
         <!-- start footer -->
         <div class="footer">
             <div class="container">
-                <a href="contact us">Contact us</a>
+                <a href="contact%20us.html">Contact us</a>
                 <h3>Copyrights &copy; 2020 All rights reserved</h3>
             </div>
         </div>
