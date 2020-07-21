@@ -3,7 +3,7 @@
 *{box-sizing: border-box}
 .container{
     width: 1000px;
-    margin: auto
+    margin: auto;
 }
 
 .clearfix{clear: both}
@@ -97,71 +97,32 @@
 .navbar .fa-toggle-on{display: none;}
 .navbar  i:hover{color:#74c7d5 }
 /* end navbar */
-
-/* start form */
-.welcome{
-
-    color:white;
-    font-family: Arial, Helvetica, sans-serif;
-}
-.con{
-    background-color: dimgray;
-    width: 420px;
-    height:670px;
-    padding: 25px;
-    border: 9px ridge;
-    margin: auto;
-    margin-top: 15px;
-  margin-bottom: 25px;
+.title{text-align: center}
+.gallery {
+    width: 31.333%;
+    height: 325px;
+    margin: 1%;
     display: none;
-    border-radius: 30px;
-    text-align:left;
-}
-form label {
-    font-family: Arial, Helvetica, sans-serif;
-}
-input[type=text] {
-    height: 25px;
-    width: 80%;
- padding: 8px 22px;
- margin: 10px 5px;
- border-radius: 50px;
-}
-input[type=email] {
-    height: 25px;
-    width: 80%;
- padding: 8px 22px;
- margin: 10px 5px;
- border-radius: 50px;
-}
-input[type=password] {
-    height: 25px;
-    width: 80%;
- padding: 8px 22px;
- margin: 10px 5px;
- border-radius: 50px;
-}
-input[type=radio] {
-  margin-top: 2px;
-    }
+    border: 0px solid #ccc;
+float: left;
 
-.b{
-    padding: 8px 22px;
-    border: 10px;
-    border-radius:50px;
-    background-color:snow;    
-}
-a{
-    color:dodgerblue;
-}
 
-/* end form */
+  }
+  div.gallery img{
 
-/* start footer */
-
+    width:300px;
+    height: 300px;
+  }
+  .text{
+font-style: normal;
+    font-size: medium;
+    text-align: center;
+    font-weight: bold;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  }
+  /* start footer */
 .footer{
-    margin-top: 30px;
-    margin-bottom: 1px;
+    margin-top:25px;
     width: 100%;
     height:150px;
     background-color: #404040;
@@ -177,4 +138,3 @@ a{
 .footer a:hover{color: #0040ff}
 
 /* end footer */
-

@@ -5,6 +5,10 @@
     width: 1000px;
     margin: auto
 }
+body{
+    padding: 0;
+    margin: 0;
+}
 
 .clearfix{clear: both}
 
@@ -88,7 +92,6 @@
   display: block;
 }
 
-
 .navbar  i{
     float: right;
     color: white;
@@ -97,71 +100,30 @@
 .navbar .fa-toggle-on{display: none;}
 .navbar  i:hover{color:#74c7d5 }
 /* end navbar */
-
-/* start form */
-.welcome{
-
-    color:white;
-    font-family: Arial, Helvetica, sans-serif;
+/* start Greek*/
+.photos{
+    width: 500px;
+    border-radius: 5px;
+    display: block;
 }
-.con{
-    background-color: dimgray;
-    width: 420px;
-    height:670px;
-    padding: 25px;
-    border: 9px ridge;
-    margin: auto;
-    margin-top: 15px;
-  margin-bottom: 25px;
-    display: none;
-    border-radius: 30px;
-    text-align:left;
+.agora,.olimpia{
+    margin: 15px 10px 20px 10px;
 }
-form label {
-    font-family: Arial, Helvetica, sans-serif;
+.greekOffer{
+    margin: 50px;
 }
-input[type=text] {
-    height: 25px;
-    width: 80%;
- padding: 8px 22px;
- margin: 10px 5px;
- border-radius: 50px;
+h1{
+    text-align: center;
+    margin-bottom: 50px;
 }
-input[type=email] {
-    height: 25px;
-    width: 80%;
- padding: 8px 22px;
- margin: 10px 5px;
- border-radius: 50px;
+p{
+    font-size: 20px;
 }
-input[type=password] {
-    height: 25px;
-    width: 80%;
- padding: 8px 22px;
- margin: 10px 5px;
- border-radius: 50px;
-}
-input[type=radio] {
-  margin-top: 2px;
-    }
-
-.b{
-    padding: 8px 22px;
-    border: 10px;
-    border-radius:50px;
-    background-color:snow;    
-}
-a{
-    color:dodgerblue;
-}
-
-/* end form */
-
+/* end Greek*/
 /* start footer */
 
 .footer{
-    margin-top: 30px;
-    margin-bottom: 1px;
+    margin-top: 200px;
     width: 100%;
     height:150px;
     background-color: #404040;
@@ -177,4 +139,3 @@ a{
 .footer a:hover{color: #0040ff}
 
 /* end footer */
-

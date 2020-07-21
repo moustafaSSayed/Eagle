@@ -164,15 +164,15 @@
 
 /* end slider */
 
-/* start gallary */
+/* start gallery */
 
-.gallary{
+.gallery{
     background-color: #5384a0;
     height: 320px;
 
 }
 
-.gallary h2{
+.gallery h2{
     margin-top: 0;
     margin-bottom: 0;
     padding-top: 10px;
@@ -180,32 +180,33 @@
     
 }
 
-.gallary p span{color: #000099}
+.gallery p span{color: #000099}
 
-.gallary img{
+.gallery img{
     float: left;
     width: 20%;
     margin-right: 5%;
 }
 
-.gallary a{
+.gallery a{
     color: white;
     text-transform: uppercase;
     float: right;
     margin-top: 5px
 }
 
-.gallary a:hover{font-size: 20px}
-/* end gallary */
+.gallery a:hover{font-size: 20px}
+/* end gallery */
 
 /* start opinions */
 
 .opinions{
     height: 300px;
     text-align: center;
-    background-image:url();
+    background-image:url(../img/samuele-errico.jpg);
     background-attachment:fixed;
-    background-color: #d9d9d9
+    background-size: cover;
+    color: white;
     
 }
 

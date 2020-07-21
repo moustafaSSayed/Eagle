@@ -98,70 +98,66 @@
 .navbar  i:hover{color:#74c7d5 }
 /* end navbar */
 
-/* start form */
-.welcome{
+/* start countries */
 
-    color:white;
-    font-family: Arial, Helvetica, sans-serif;
-}
-.con{
-    background-color: dimgray;
-    width: 420px;
-    height:670px;
-    padding: 25px;
-    border: 9px ridge;
-    margin: auto;
-    margin-top: 15px;
-  margin-bottom: 25px;
-    display: none;
-    border-radius: 30px;
-    text-align:left;
-}
-form label {
-    font-family: Arial, Helvetica, sans-serif;
-}
-input[type=text] {
-    height: 25px;
-    width: 80%;
- padding: 8px 22px;
- margin: 10px 5px;
- border-radius: 50px;
-}
-input[type=email] {
-    height: 25px;
-    width: 80%;
- padding: 8px 22px;
- margin: 10px 5px;
- border-radius: 50px;
-}
-input[type=password] {
-    height: 25px;
-    width: 80%;
- padding: 8px 22px;
- margin: 10px 5px;
- border-radius: 50px;
-}
-input[type=radio] {
-  margin-top: 2px;
-    }
-
-.b{
-    padding: 8px 22px;
-    border: 10px;
-    border-radius:50px;
-    background-color:snow;    
-}
-a{
-    color:dodgerblue;
+.countries h2 {
+    text-align: center;
+    font-size: 30px;
+    text-shadow:2px 2px 2px #1f2e2e
 }
 
-/* end form */
+.countries p {text-align: center}
+
+.countries .filterbar button{
+    border: 2px solid #000099;
+    background-color: #000099;
+    color: white;
+    padding: 9px;
+    margin-right: 15px;
+    border-radius:5px;
+    cursor: pointer
+}
+
+.countries .filterbar .active{background: none;color: black}
+
+.countries .filterbar button:hover{background: none;color: black}
+
+.countries .filterbar i{
+    color: #000099;
+    float: right;
+    margin-right: 10px;
+    cursor: pointer
+}
+
+.countries .filterbar i .active,.countries .filterbar i:hover{color: black}
+
+.countries .photo div{
+    border: 2px solid black;
+    float: left;
+    width: 31.3333%;
+    height: 300px;
+    margin: 10px;
+    text-align: center
+    
+}
+
+.countries .photo div:hover{background-color: #b3b3b3b8}
+
+.countries .photo div .a{display: none}
+
+
+.countries .photo img{
+    width: 100%;
+    height: 170px;
+}
+
+
+/* end countries */
 
 /* start footer */
 
 .footer{
     margin-top: 30px;
-    margin-bottom: 1px;
     width: 100%;
     height:150px;
     background-color: #404040;
@@ -177,4 +173,3 @@ a{
 .footer a:hover{color: #0040ff}
 
 /* end footer */
-
