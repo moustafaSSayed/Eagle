@@ -2,21 +2,24 @@ $(function(){
     //toggel dark mood button
   $('.navbar .fa-toggle-off').click(function(){
      
-     $('.fa-toggle-off').css("display","none");
-     $('.fa-toggle-on').css("display","block");
-     $("body").css({"backgroundColor": "#808080"});
-     $(".countries .filterbar .active").css({"color": "white"});
-     $(".countries .filterbar button:hover").css({"color": "white"});
-     $(".countries .filterbar i .active,.countries .filterbar i:hover").css({"color": "white"});
-      //$("").css({"": "", "" : ""});
+      $('.fa-toggle-off').css("display","none");
+      $('.fa-toggle-on').css("display","block");
+      $("body").css({"backgroundColor": "#808080"});
+      $(".countries .filterbar button").css({"color": "white"});
+      $("p,h2,h3,hr").css({"color": "white"});
+      $(".navbar .logo h3").css({"color": "white"});
   });
      //$("").css({"": "", "" : ""});
     
   $('.navbar .fa-toggle-on').click(function(){
      
-     $('.fa-toggle-on').css("display","none");
-     $('.fa-toggle-off').css("display","block");  
-     
+      $('.fa-toggle-on').css("display","none");
+      $('.fa-toggle-off').css("display","block");  
+      
+      $("body").css({"backgroundColor": "white"});
+      $(".countries .filterbar .active").css({"color": "black"});
+      $("p,h2,h3,hr").css({"color": "black"});
+      $(".navbar .logo h3").css({"color": "white"});
   });
     // move .active between countries
     
@@ -79,7 +82,7 @@ $(function(){
     
     $('.countries .filterbar i').click(function(){
        
-        $(this).addClass('active').siblings('i').removeClass('active');
+        $(this).addClass('active-icon').siblings('i').removeClass('active-icon');
         
     });
     
