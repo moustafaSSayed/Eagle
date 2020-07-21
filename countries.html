@@ -1,0 +1,132 @@
+<html>
+    <head>
+        <title>Countries</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="icon" href="img/logo.png" sizes="15x15">
+        <link rel="stylesheet" type="text/css" href="css/normalize.css">
+        <link rel="stylesheet" type="text/css" href="css/countries.css">
+        <link rel="stylesheet" href="css/font-awesome-4.7.0/css/font-awesome.min.css">
+        <script  src="js/jQuery.js"></script>
+        <script  src="js/countries.js"></script>
+    </head>
+    <body>
+        <!-- start navbar -->
+        <div class="navbar">
+            <div class="container">
+                <a class="help" href="help.html" title="Help"><i class="fa fa-question-circle fa-lg"></i></a>
+                <i class="fa fa-toggle-off" aria-hidden="true" title="another theme"></i>
+                <i class="fa fa-toggle-on" aria-hidden="true" title="Help"></i>
+                <div class="logo">
+                    <img src="img/logo.png">
+                    <h3>Eagle</h3>
+                </div>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="countries.html" class="active">Countries</a></li>
+                    <li><a href="news.html">News</a></li>
+                    <li><a href="offers.html">Offers</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <div class="dropdown">
+                      <li ><a>Join</a></li>
+                      <div class="dropdown-content">
+                          <a href="signup.html">Sing up</a>
+                          <a href="login.html">Login</a>
+                      </div>
+                    </div>   
+                </ul>
+            </div>
+            <div class="clearfix"></div>
+        </div>
+        <!-- end navbar -->
+        
+        <!-- start countries -->
+        
+        <div class="countries">
+            <div class="container">
+                <h2>Countries</h2>
+                <p>(choose <i class="fa fa-bars" title="List View"></i> To see more information)</p>
+                <hr>
+                <div class="filterbar">
+                    <button id="all" class="active">All</button>
+                    <button id="egypt">Egypt</button>
+                    <button id="greece">Greece</button>
+                    <button id="turkey">Turkey</button>
+                    <button id="italy">Italy</button>
+                    <button id="england">England</button>
+                    <i class="fa fa-bars fa-3x" title="List View"></i>
+                    <i class="fa fa-th fa-3x active" title="Grid View"></i>
+                </div>
+                <hr>
+                <div class="photo">
+                    <div class="egypt">
+                        <img src="img/egypt1.jpg" alt="Pyramid" title="Pyramid">
+                        <h3>Pyramids and the Sphinx</h3>
+                        <p>The Pyramid area in Giza is considered an important tourist area in Egypt<br><br><span class="a">there are 3 big Pyramids Until now, whole world does not know how the pyramids were built<br>There are more pyramids in Egypt so you must come to see more</span></p>
+                    </div>
+                    <div class="england">
+                        <img src="img/england2.jpg" alt="Tower Bridge" title="Tower Bridge">
+                        <h3>Tower Bridge</h3>
+                        <p>A suspended and movable bridge in London, Britain, connecting the two banks of the Thames<br><br><span class="a">The reason for its construction is due to the solution of the problem of crossing the Thames, so a competition was held for the best design of the tower, taking into account the future expansion of transportation.</span></p>
+                    </div>
+                    <div class="egypt">
+                        <img src="img/egypt2.jpg" alt="Abu Simbel Temple" title="Abu Simbel Temple">
+                        <h3>Abu Simbel Temple</h3>
+                        <p>It is a wonderful museum that the Egyptians put on the pound<br><br><span class="a">Ramses II built this temple, and it indicates the ancient Egyptians' progress in the ark because the sun is perpendicular to three deities, and not perpendicular to the god Ptah, which is the god of darkness.<br>The museum was saved from drowning by UNESCO</span></p>
+                    </div>
+                    <div class="italy">
+                        <img src="img/italy2.jpg" alt="Colosseum" title="Colosseum">
+                        <h3>Colosseum</h3>
+                        <p>The Colosseum was named the Flavian Amphitheater to honor the dynasty of the Flavian Emperors<br><br><span class="a">It is located in Rome and its length is 48 meters<br>The building was damaged by the earthquake, but it is still a symbol of the Roman Empire</span></p>
+                    </div>
+                    <div class="egypt">
+                        <img src="img/egypt3.jpg" alt="Moez Street" title="Moez Street">
+                        <h3>Moez Street</h3>
+                        <p>One of the most beautiful streets<br><br><span class="a">The area contains many buildings and mosques that belong to different eras. You will see the splendor of architecture in different cultures.</span></p>
+                    </div>
+                    <div class="italy">
+                        <img src="img/italy1.jpg" alt="Milan Cathedral" title="Milan Cathedral">
+                        <h3>Milan Cathedral</h3>
+                        <p>Cathedral Church in Milan in Lombardy in northern Italy.<br><br><span class="a">The design of the church is very similar to the Notre Dame church with some minor differences<br>The interior of the cathedral includes many paintings of the world's most famous painters, as well as more than wonderful statues and artworks.</span></p>
+                    </div>
+                    <div class="greece">
+                        <img src="img/greece1.jpg" alt="Olimpia" title="Olimpia">
+                        <h3>Olimpia</h3>
+                        <p>The oldest Olympic Games were held here<br><br><span class="a">The Olympic Games competition has spread and has been called the Olympic attributed to the city of Olympia</span></p>
+                    </div>
+                    <div class="turkey">
+                        <img src="img/Turkey1.jpg" alt="bosphorus bridge" title="bosphorus bridge">
+                        <h3>bosphorus bridge</h3>
+                        <p>One of the most famous suspension bridges<br><br><span class="a">It connects Asia and Europe with a length of 1,560 meters</span></p>
+                    </div>
+                    <div class="england">
+                        <img src="img/england1.jpg" alt="Big ben" title="Big ben">
+                        <h3>The Clock Tower(Big ben)</h3>
+                        <p>The Clock Tower is located in London and has become a symbol of the country<br><br><span class="a">It was named Elizabeth Tower in 2012 and it is currently down for restoration and maintenance</span></p>
+                    </div>
+                    <div class="egypt">
+                        <img src="img/slid4.jpeg" alt="Sofitel Legend (Old Cataract)" title="Sofitel Legend (Old Cataract)">
+                        <h3>Sofitel Legend (Old Cataract)</h3>
+                        <p>It is considered one of the most beautiful hotels in Aswan and the Egyptian Grand Hotel series was filmed on its grounds<br><br><span class="a">Filming of the series caused a great reputation for the hotel inside the country<br>The hotel's development and renovation work took place in 2008 and lasted for 3 years<br>to restore the hotel as a facade of the city of Aswan</span></p>
+                    </div>
+                    <div class="greece">
+                        <img src="img/greece2.jpg" alt="Agora" title="Agora">
+                        <h3>Agora</h3>
+                        <p>Agora meant the Liberal Council and the leaders and princes met to take decisions<br><br><span class="a">Agora was also a council of poets, writers and singers, and the seaside is one of the most important sources of attracting tourists because of the celebrations that are held</span></p>
+                    </div>
+                </div>
+             </div>
+        </div>
+        <div class="clearfix"></div>
+        
+        <!-- end countries -->
+        
+        <!-- start footer -->
+        <div class="footer">
+            <div class="container">
+                <a href="contact us">Contact us</a>
+                <h3>Copyrights &copy; 2020 All rights reserved</h3>
+            </div>
+        </div>
+        <!-- end footer -->
+    </body>
+</html>
