@@ -8,6 +8,7 @@ $(function(){
       $(".countries .filterbar button").css({"color": "white"});
       $("p,h2,h3,hr").css({"color": "white"});
       $(".navbar .logo h3").css({"color": "white"});
+      $(".countries h2").css({"textShadow": "2px 2px 2px black"});
   });
      //$("").css({"": "", "" : ""});
     
@@ -20,6 +21,7 @@ $(function(){
       $(".countries .filterbar .active").css({"color": "black"});
       $("p,h2,h3,hr").css({"color": "black"});
       $(".navbar .logo h3").css({"color": "white"});
+      $(".countries h2").css({"textShadow": "1px 2px 1px #1f2e2e"});
   });
     // move .active between countries
     

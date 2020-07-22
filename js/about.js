@@ -13,9 +13,4 @@ $(function(){
      $('.fa-toggle-off').css("display","block");  
      
   });
-    // alert massage
-    $(".form button").click(function(){
-        alert("Thank you "+$("#fname").val());
-    }); 
-    
 });
