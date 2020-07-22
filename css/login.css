@@ -92,6 +92,7 @@ body{
 .navbar  i{
     float: right;
     color: white;
+    padding: 25px 15px 7px 15px;
 }
 
 .navbar .fa-toggle-on{display: none;}
