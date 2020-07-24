@@ -1,0 +1,96 @@
+<html>
+    <head>
+        <title>Book</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="icon" href="img/logo.png" sizes="15x15">
+        <link rel="stylesheet" type="text/css" href="css/normalize.css">
+        <link rel="stylesheet" type="text/css" href="css/book.css">
+        <link rel="stylesheet" href="css/font-awesome-4.7.0/css/font-awesome.min.css">
+        <script  src="js/jQuery.js"></script>
+        <script  src="js/book.js"></script>
+    </head>
+    <body>
+        <!-- start navbar -->
+        <div class="navbar">
+            <div class="container">
+                <a class="help" href="help.html" title="Help"><i class="fa fa-question-circle fa-lg"></i></a>
+                <i class="fa fa-toggle-off" aria-hidden="true" title="another theme"></i>
+                <i class="fa fa-toggle-on" aria-hidden="true" title="Help"></i>
+                <div class="logo">
+                    <img src="img/logo.png">
+                    <h3>Eagle</h3>
+                </div>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="countries.html">Countries</a></li>
+                    <li><a href="news.html">News</a></li>
+                    <li><a href="offers.html">Offers</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <div class="dropdown">
+                      <li ><a>Join</a></li>
+                      <div class="dropdown-content">
+                          <a href="signup.html">Sing up</a>
+                          <a href="login.html">Login</a>
+                      </div>
+                    </div>   
+                </ul>
+            </div>
+            <div class="clearfix"></div>
+        </div>
+        <!-- end navbar -->
+        
+        <!-- start booking -->
+        <div class="book">
+            <div class="container">
+                <table  class="table" style="width:100%">
+                    <tr class="tr">
+                        <th class="th"><form>From <br>  <input list="countries" name="countries" placeholder="City or airport">
+                          <datalist id="countries">
+                            <option value="Italy">
+                            <option value="Egypt">
+                            <option value="Cairo">
+                            <option value="Aswan">
+                            <option value="London">
+                            <option value="Greece">
+                            <option value="Turkey">
+                            <option value="Milan">
+                            <option value="Alexandria">
+                          </datalist>
+                         </form>
+                      </th>
+                        <th class="th"><form>To<br>  <input list="countries" name="countries" placeholder="City or airport">
+                          <datalist id="countries">
+                            <option value="Italy">
+                            <option value="Egypt">
+                            <option value="Cairo">
+                            <option value="Aswan">
+                            <option value="London">
+                            <option value="Greece">
+                            <option value="Turkey">
+                            <option value="Milan">
+                            <option value="Alexandria">
+                          </datalist></form>
+                        </th> 
+                        <th class="th"><form>Depart<br><input type="date"></form></th>
+                        <th class="th"><form>Return<br><input type="date" class="date"></form></th>
+                        <th class="th"><form>Price<br><p class="price"></p> </form></th>
+                        <th class="th"><button type="button" onclick="alert('Book Done !')">BOOK</button></th>
+                    </tr>
+                </table>
+                </div>
+        
+        </div>
+        
+        <!-- start booking -->
+        
+        <!-- start footer -->
+        <div class="footer">
+            <div class="container">
+                <a href="contact%20us.html">Contact us</a>
+                <h3>Copyrights &copy; 2020 All rights reserved</h3>
+            </div>
+        </div>
+        <!-- end footer -->
+        
+    </body>
+</html>
