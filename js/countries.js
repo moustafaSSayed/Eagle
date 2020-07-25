@@ -5,7 +5,6 @@ $(function(){
       $('.fa-toggle-off').css("display","none");
       $('.fa-toggle-on').css("display","block");
       $("body").css({"backgroundColor": "#808080"});
-      $(".countries .filterbar button").css({"color": "white"});
       $("p,h2,h3,hr").css({"color": "white"});
       $(".navbar .logo h3").css({"color": "white"});
       $(".countries h2").css({"textShadow": "2px 2px 2px black"});
@@ -18,7 +17,6 @@ $(function(){
       $('.fa-toggle-off').css("display","block");  
       
       $("body").css({"backgroundColor": "white"});
-      $(".countries .filterbar .active").css({"color": "black"});
       $("p,h2,h3,hr").css({"color": "black"});
       $(".navbar .logo h3").css({"color": "white"});
       $(".countries h2").css({"textShadow": "1px 2px 1px #1f2e2e"});
