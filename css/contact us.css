@@ -9,6 +9,11 @@
 
 .clearfix{clear: both}
 
+ body{
+    background-image:url(../img/crop.jpg);
+    background-size: cover;
+            }
+
 /* end global */
 
 /* start navbar */
@@ -101,10 +106,6 @@
 
 /* start contact us */
 
- body{
-    background-image:url(../img/damian-markutt.jpg);
-    background-size: cover;
-            }
 .contactus{
     margin: auto;
     width: 1000px;
@@ -144,15 +145,15 @@
     width: 50%;
 }
 .form input {
-    border: 1px solid rgb(85, 85, 85,.3);
+    border: 1px solid gainsboro;
     border-radius: 4px;
-    background-color: rgb(85, 85, 85,.3);
+    background-color: gainsboro;
     margin: 15px 0px 15px 15px;
 }
 .form textarea {
-    border: 1px solid rgb(85, 85, 85,.3);
+    border: 1px solid gainsboro;
     border-radius: 4px;
-    background-color: rgb(85, 85, 85,.3);
+    background-color: gainsboro;
     margin: 15px 0px 15px 15px;
 }
 form button {
@@ -172,6 +173,10 @@ form button {
 /* start footer */
 
 .footer{
+    position: relative;
+    bottom: 0;
+    position: absolute;
+    bottom: 0;
     margin-top: 25px;
     width: 100%;
     height:94px;

@@ -102,28 +102,134 @@ body{
 /* end navbar */
 /* start italy*/
 .photos{
-    width: 500px;
+    width: 400px;
     border-radius: 5px;
     display: block;
+    height: 250px;
 }
 .milanCathedral,.colosseum{
-    margin: 15px 10px 20px 10px;
+    margin: 15px 30px 20px 50px;
+    float: left;
 }
 .italyOffer{
-    margin: 50px;
+    margin: 0px;
 }
 h1{
     text-align: center;
     margin-bottom: 50px;
+    font-family:monospace;
+    font-size:40px;
 }
 p{
     font-size: 20px;
+    font-family:sans-serif;
 }
+h3{
+    text-align: center;
+    font-family:monospace;
+    font-size: 20px;
+}
+/** start rating bar **/
+.heading {
+    font-size: 30px;
+    margin-right: 25px;
+    font-family:monospace;
+}
+.fa{
+    font-size: 15px;
+}
+.checked {
+    color: orange;
+}
+.side {
+    float: left;
+    width: 15%;
+    margin-top:10px;
+    font-size: 20px;
+}
+
+.middle {
+    margin-top:10px;
+    float: left;
+    width: 70%;
+}
+.right {
+    text-align: right;
+}
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+.bar-container {
+    width: 100%;
+    background-color: #f1f1f1;
+    text-align: center;
+    color: white;
+    border-radius: 20px;
+    
+}
+.bar-5 {
+    width:65%;
+    height:18px;
+    background-color:#4CAF50;
+    border-radius: 20px;
+}
+.bar-4 {
+    width:40%;
+    height:18px;
+    background-color:#2196F3;
+    border-radius: 20px;
+}
+.bar-3 {
+    width:20%;
+    height:18px;
+    background-color:#f44336;
+    border-radius: 20px;
+}
+.bar-2 {
+     width:25%;
+    height:18px;
+    background-color:#00bcd4;
+    border-radius: 20px;
+}
+.bar-1 {
+   width:5%;
+    height:18px;
+    background-color:#ff9800;
+    border-radius: 20px;
+}
+/** end rating bar **/
+/** start some opinions **/
+.heading1{
+    text-align: left;
+    font-size: 30px;
+}
+.opinion1,.opinion2,.opinion3,.opinion4{
+    font-family: monospace;
+    font-size: 15px;
+    background-color: #003580;
+    float: left;
+    color: white;
+    height: 200px;
+    width: 200px;
+    padding:1px;
+    margin: 10px;
+    border-radius: 20px;
+    text-align: center;
+}
+.avatar{
+    border-radius: 50px;
+    height: 100px;
+}
+/** end some opinions **/
 /* end italy*/
 /* start footer */
 
 .footer{
-    margin-top: 200px;
+    position: relative;
+    bottom: 0;
+    margin-top: 30px;
     width: 100%;
     height:150px;
     background-color: #404040;

@@ -184,8 +184,10 @@
 
 .gallery img{
     float: left;
-    width: 20%;
-    margin-right: 5%;
+    width: 24%;
+    height: 200px;
+    margin-right: 1%;
+    border-radius: 5px
 }
 
 .gallery a{
@@ -198,9 +200,9 @@
 .gallery a:hover{font-size: 20px}
 /* end gallery */
 
-/* start opinions */
+/* start reviews */
 
-.opinions{
+.reviews{
     height: 300px;
     text-align: center;
     background-image:url(../img/samuele-errico.jpg);
@@ -210,31 +212,33 @@
     
 }
 
-.opinions h2{
+.reviews h2{
     margin-top: 0;
     padding-top: 50px
 }
 
-.opinions .my-slider div{display: none;}
+.reviews .my-slider div{display: none;}
 
-.opinions .my-slider .active{display: block;}
+.reviews .my-slider .active{display: block;}
 
-.opinions a{
+.reviews .my-slider h3,.reviews .my-slider q{font-weight: bolder;}
+
+.reviews a{
     color: white;
     text-transform: uppercase;
     float: right;
     margin-top: 30px
 }
 
-.opinions a:hover{font-size: 20px}
-/* end opinions */
+.reviews a:hover{font-size: 20px}
+/* end reviews */
 
-/* start reviwes */
+/* start opinions */
 
-.reviews {height: 620px;}
+.opinions {height: 620px;}
 
-.reviews .card{
-    height: 250px;
+.opinions .card{
+    height: 230px;
     float: left;
     width: 48%;
     border: 2px solid gray;
@@ -244,24 +248,24 @@
 
 }
 
-.reviews .card:hover{box-shadow: 0px 8px 16px 0px #1f2e2e;}
+.opinions .card:hover{box-shadow: 0px 8px 16px 0px #1f2e2e;}
 
-.reviews .card img{
+.opinions .card img{
     height: auto;
     float: left;
     width: 40%;
     padding: 30px 5px 0 5px
 }
 
-.reviews .card p{
+.opinions .card p{
     padding-top: 15px;
-    padding-left: 10px;
+    padding-left: 15px;
     float: left;
     width: 50%;
     font-size: 18px;
 }
 
-/* end reviwes */
+/* end opinions */
 
 /* start travelling advice */
 
@@ -278,7 +282,7 @@
 .advices  h2 span a{color: blue;}
 .advices .one{
     float: left;
-    width: 24%;
+    width: 31.333%;
     height: 300px;
     border: 2px solid #212022;
     background-color: #7b7b5e36;
@@ -287,7 +291,7 @@
 }
 
 .advices .one .title{
-    height: 55px;
+    height: 75px;
     background-color: black;
     text-align: center;
     color: white;
@@ -312,6 +316,8 @@
 /* start footer */
 
 .footer{
+    position: relative;
+    bottom: 0;
     width: 100%;
     height:150px;
     background-color: #404040;
