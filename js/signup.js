@@ -4,7 +4,8 @@ $(function(){
  $('.navbar .fa-toggle-off').click(function(){
     
     $('.fa-toggle-off').css("display","none");
-    $('.fa-toggle-on').css("display","block");  $("body").css({"backgroundColor": "#808080"});
+    $('.fa-toggle-on').css("display","block");
+    $("body").css({"backgroundColor": "#262626"});
     $(".con ,.filterbar button").css({"backgroundColor": "#696666"});
     $(".b").css({"backgroundColor": "#d4cdcd"});
     $("p,.welcome,.b").css({"color": "white"});

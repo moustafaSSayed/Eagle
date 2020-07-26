@@ -4,7 +4,7 @@ $(function(){
      
       $('.fa-toggle-off').css("display","none");
       $('.fa-toggle-on').css("display","block");
-      $("body").css({"backgroundColor": "#808080"});
+      $("body").css({"backgroundColor": "#262626"});
       $("p,h2,h3,hr").css({"color": "white"});
       $(".navbar .logo h3").css({"color": "white"});
       $(".countries h2").css({"textShadow": "2px 2px 2px black"});

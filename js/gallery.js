@@ -6,7 +6,7 @@ $(document).ready(function(){
       
       $('.fa-toggle-off').css("display","none");
       $('.fa-toggle-on').css("display","block"); 
-      $("body").css({"backgroundColor": "#808080"});
+      $("body").css({"backgroundColor": "#262626"});
       $(".gallery,.filterbar button").css({"backgroundColor": "darkgray"});
       $("h2").css({"color": "white"});
       $(".text").css({"color": "white"});

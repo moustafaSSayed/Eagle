@@ -7,7 +7,7 @@ $(".right").fadeIn(1000);
          
          $('.fa-toggle-off').css("display","none");
          $('.fa-toggle-on').css("display","block"); 
-         $("body").css({"backgroundColor": "#808080"});
+         $("body").css({"backgroundColor": "#262626"});
       $(".news,.filterbar button").css({"backgroundColor": "darkgray"});
       $(".right").css({"backgroundColor": "darkgray"});
       $("h1").css({"color": "white","textShadow":"2px 2px 8px black"});

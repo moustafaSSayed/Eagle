@@ -4,7 +4,7 @@ $(function(){
      
       $('.fa-toggle-off').css("display","none");
       $('.fa-toggle-on').css("display","block");  
-      $("body").css({"backgroundColor": "#808080"});
+      $("body").css({"backgroundColor": "#262626"});
       $("h4,.reviews h2").css({"color": "white"});
       $("p").css({"color": "#02176A"});
   });
