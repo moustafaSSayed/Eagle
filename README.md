@@ -7,6 +7,7 @@ A front-end web site that shows the historical places around the world for the t
 - JQuery
 
 **For full Testing**:
+
 -Start with index.html
 
 **Team Members** :
