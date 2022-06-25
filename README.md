@@ -13,7 +13,7 @@ A front-end web site that shows the historical places around the world for the t
 **Team Members** :
 - <a href="https://github.com/moustafaSSayed">Moustafa Sayed</a>
 - <a href="https://github.com/yousef-mostafa">Yousef Moustafa</a>
-- Fatma Rida
+- <a href="https://github.com/Fatmaridaa">Fatma Rida</a> 
 - Mai Mohamed
 - Rahma Mohamed
 
